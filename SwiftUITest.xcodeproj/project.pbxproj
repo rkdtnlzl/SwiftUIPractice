@@ -15,6 +15,7 @@
 		01D113702C85927B006B20BB /* NicknameSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D1136F2C85927B006B20BB /* NicknameSettingView.swift */; };
 		01D113732C859F25006B20BB /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D113722C859F25006B20BB /* ProfileImageView.swift */; };
 		01D113762C85A3A9006B20BB /* NicknameTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D113752C85A3A9006B20BB /* NicknameTextFieldModifier.swift */; };
+		01D113782C85B7CD006B20BB /* ProfileSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D113772C85B7CD006B20BB /* ProfileSettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		01D1136F2C85927B006B20BB /* NicknameSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameSettingView.swift; sourceTree = "<group>"; };
 		01D113722C859F25006B20BB /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
 		01D113752C85A3A9006B20BB /* NicknameTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameTextFieldModifier.swift; sourceTree = "<group>"; };
+		01D113772C85B7CD006B20BB /* ProfileSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				01D113712C8592CF006B20BB /* Custom */,
 				01D113692C858CDE006B20BB /* OnboardingView.swift */,
 				01D1136F2C85927B006B20BB /* NicknameSettingView.swift */,
+				01D113772C85B7CD006B20BB /* ProfileSettingView.swift */,
 				01D1135F2C858B62006B20BB /* Assets.xcassets */,
 				01D113612C858B62006B20BB /* Preview Content */,
 			);
@@ -167,6 +170,7 @@
 			files = (
 				01D1136A2C858CDE006B20BB /* OnboardingView.swift in Sources */,
 				01D113702C85927B006B20BB /* NicknameSettingView.swift in Sources */,
+				01D113782C85B7CD006B20BB /* ProfileSettingView.swift in Sources */,
 				01D113762C85A3A9006B20BB /* NicknameTextFieldModifier.swift in Sources */,
 				01D113732C859F25006B20BB /* ProfileImageView.swift in Sources */,
 				01D1135C2C858B60006B20BB /* SwiftUITestApp.swift in Sources */,

@@ -18,7 +18,7 @@ struct ProfileImageView: View {
                 .scaledToFit()
                 .clipShape(Circle())
                 .overlay(Circle().stroke(.blue, lineWidth: 7))
-                .frame(width: 150, height: 150)
+                .frame(width: 120, height: 120)
             
             NavigationLink(destination: destination) {
                 Circle()
@@ -28,7 +28,7 @@ struct ProfileImageView: View {
                         Image(systemName: "camera")
                             .foregroundColor(.white)
                     )
-                    .offset(x: 45, y: 50)
+                    .offset(x: 40, y: 40)
                     .frame(width: 150, height: 150)
             }
         }

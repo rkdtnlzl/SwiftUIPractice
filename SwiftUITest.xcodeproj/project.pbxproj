@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		01D1135C2C858B60006B20BB /* SwiftUITestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D1135B2C858B60006B20BB /* SwiftUITestApp.swift */; };
-		01D1135E2C858B60006B20BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D1135D2C858B60006B20BB /* ContentView.swift */; };
 		01D113602C858B62006B20BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D1135F2C858B62006B20BB /* Assets.xcassets */; };
 		01D113632C858B62006B20BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D113622C858B62006B20BB /* Preview Assets.xcassets */; };
+		01D1136A2C858CDE006B20BB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D113692C858CDE006B20BB /* OnboardingView.swift */; };
+		01D1136E2C858FF5006B20BB /* CustomRadiusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D1136D2C858FF5006B20BB /* CustomRadiusButton.swift */; };
+		01D113702C85927B006B20BB /* NicknameSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D1136F2C85927B006B20BB /* NicknameSettingView.swift */; };
+		01D113732C859F25006B20BB /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D113722C859F25006B20BB /* ProfileImageView.swift */; };
+		01D113762C85A3A9006B20BB /* NicknameTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D113752C85A3A9006B20BB /* NicknameTextFieldModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01D113582C858B60006B20BB /* SwiftUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D1135B2C858B60006B20BB /* SwiftUITestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestApp.swift; sourceTree = "<group>"; };
-		01D1135D2C858B60006B20BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01D1135F2C858B62006B20BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01D113622C858B62006B20BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01D113692C858CDE006B20BB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		01D1136D2C858FF5006B20BB /* CustomRadiusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRadiusButton.swift; sourceTree = "<group>"; };
+		01D1136F2C85927B006B20BB /* NicknameSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameSettingView.swift; sourceTree = "<group>"; };
+		01D113722C859F25006B20BB /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		01D113752C85A3A9006B20BB /* NicknameTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameTextFieldModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				01D1135B2C858B60006B20BB /* SwiftUITestApp.swift */,
-				01D1135D2C858B60006B20BB /* ContentView.swift */,
+				01D113742C85A391006B20BB /* Modifier */,
+				01D113712C8592CF006B20BB /* Custom */,
+				01D113692C858CDE006B20BB /* OnboardingView.swift */,
+				01D1136F2C85927B006B20BB /* NicknameSettingView.swift */,
 				01D1135F2C858B62006B20BB /* Assets.xcassets */,
 				01D113612C858B62006B20BB /* Preview Content */,
 			);
@@ -65,6 +76,23 @@
 				01D113622C858B62006B20BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01D113712C8592CF006B20BB /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				01D1136D2C858FF5006B20BB /* CustomRadiusButton.swift */,
+				01D113722C859F25006B20BB /* ProfileImageView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		01D113742C85A391006B20BB /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				01D113752C85A3A9006B20BB /* NicknameTextFieldModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D1135E2C858B60006B20BB /* ContentView.swift in Sources */,
+				01D1136A2C858CDE006B20BB /* OnboardingView.swift in Sources */,
+				01D113702C85927B006B20BB /* NicknameSettingView.swift in Sources */,
+				01D113762C85A3A9006B20BB /* NicknameTextFieldModifier.swift in Sources */,
+				01D113732C859F25006B20BB /* ProfileImageView.swift in Sources */,
 				01D1135C2C858B60006B20BB /* SwiftUITestApp.swift in Sources */,
+				01D1136E2C858FF5006B20BB /* CustomRadiusButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
